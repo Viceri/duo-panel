@@ -116,5 +116,4 @@
 
 - O componente em telas grandes funciona com split horizontal e em telas menores na vertical:
 
-  ![split horizontal](https://github.com/Viceri/split-panel/blob/master/projects/split-panel/print-horizontal.png)
-  ![split vertical](https://github.com/Viceri/split-panel/blob/master/projects/split-panel/print-vertical.png)
+  ![split horizontal](https://github.com/Viceri/duo-panel/blob/master/img/split.png)
