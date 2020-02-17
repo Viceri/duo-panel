@@ -1,0 +1,14 @@
+{
+  "name": "@viceri/duo-panel",
+  "version": "1.0.2",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "./projects/duo-panel",
+    "url": "https://github.com/Viceri/duo-panel.git"
+  },
+  "private": false
+}

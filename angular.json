@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "duo-panel": {
+      "projectType": "library",
+      "root": "projects/duo-panel",
+      "sourceRoot": "projects/duo-panel/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/duo-panel/tsconfig.lib.json",
+            "project": "projects/duo-panel/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/duo-panel/src/test.ts",
+            "tsConfig": "projects/duo-panel/tsconfig.spec.json",
+            "karmaConfig": "projects/duo-panel/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/duo-panel/tsconfig.lib.json",
+              "projects/duo-panel/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }},
+  "defaultProject": "duo-panel"
+}
