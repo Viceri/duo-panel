@@ -8,6 +8,10 @@
 
 ---
 
+> [DEMO (with code)](https://stackblitz.com/edit/angular-5wbkum) <--> [Preview (no code)](https://angular-5wbkum.stackblitz.io)
+
+---
+
 > Como usar?
 
 - Instale o componente no seu projeto: ``npm i @viceri/duo-panel``
