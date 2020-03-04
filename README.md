@@ -1,6 +1,6 @@
-# SplitPanel
+# DuoPanel
 
-## Painel Duplo, com Split na Horizontal e Vertical
+## Painel Duplo, com split na Horizontal e Vertical
 
 - Framework: Angular v8.2.14
 - Languague: TypeScript
@@ -56,12 +56,15 @@
 
 > Inputs de Dados do Componente:
 
-- ``withoutTitle: boolean = false;`` - ``true`` esconde os titulos e ``false`` (propriedade default) mostra os títulos;
-- ``withShadow: boolean = false;`` - ``true`` adiciona a sombra ``false`` (propriedade default) remove a sombra;
-- ``withHover: boolean = false`` - habilita a sombra ao passar o mouse por cima (hover) do painel, ``false`` por padrão
-- ``title = { left: string, right: string }`` - objeto com duas propriedades, serve para configurar o título de cada painel;
-- ``rightPanelColor: string`` - aceita um valor (string) em Hexadecimal (ex: ``#ffffff``) para configurar a cor do painel do lado direito;
-- ``leftPanelColor: string`` - aceita um valor (string) em Hexadecimal (ex: ``#ffff00``) para configurar a cor do painel do lado esquerdo;
+| Propriedade  | Descrição  |
+|--|--|
+| ``withoutTitle: boolean = false;`` | ``true`` esconde os titulos e ``false`` (propriedade default) mostra os títulos |
+| ``withShadow: boolean = false;`` | ``true`` adiciona a sombra ``false`` (propriedade default) remove a sombra |
+| ``withHover: boolean = false`` | habilita a sombra ao passar o mouse por cima (hover) do painel, ``false`` por padrão |
+| ``title = { left: string, right: string }`` |  objeto com duas propriedades, serve para configurar o título de cada painel |
+| ``rightPanelColor: string`` |  aceita um valor (string) em Hexadecimal (ex: ``#ffffff``) para configurar a cor do painel do lado direito |
+| ``leftPanelColor: string`` |  aceita um valor (string) em Hexadecimal (ex: ``#ffff00``) para configurar a cor do painel do lado esquerdo|
+
 
   ```typescript
     import { Component } from '@angular/core';
